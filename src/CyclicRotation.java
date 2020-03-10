@@ -52,6 +52,7 @@ public class CyclicRotation {
     public static int[] rotateN(int[] arr, int rotate) {
         int count = 0;
 
+
         int[] newArr = new int[arr.length];
         try {
 
