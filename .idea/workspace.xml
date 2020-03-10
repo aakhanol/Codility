@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="deee6a8c-d55f-4734-a46f-f510369e4097" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YtzjcneFv7ikTd0HIjbi3rcDh5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager" selected="Application.CyclicRotation">
+    <configuration name="ArraySort_ReturnNextPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySort_ReturnNextPositive" />
+      <module name="Codility_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array_Distinct_Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_Distinct_Sort" />
+      <module name="Codility_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CyclicRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CyclicRotation" />
+      <module name="Codility_Array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CyclicRotation" />
+        <item itemvalue="Application.ArraySort_ReturnNextPositive" />
+        <item itemvalue="Application.Array_Distinct_Sort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deee6a8c-d55f-4734-a46f-f510369e4097" name="Default Changelist" comment="" />
+      <created>1583776814406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583776814406</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1001" y="190" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1583777473299">
+      <screen x="-1280" y="-8" width="1280" height="1024" />
+    </state>
+    <state x="-1001" y="190" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.984/-1280.-8.1280.1024@-1280.-8.1280.1024" timestamp="1583777473298" />
+    <state width="1236" height="271" key="GridCell.Tab.0.bottom" timestamp="1583880811364">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1236" height="271" key="GridCell.Tab.0.bottom/0.0.1280.984/-1280.-8.1280.1024@-1280.-8.1280.1024" timestamp="1583781495518" />
+    <state width="1236" height="271" key="GridCell.Tab.0.bottom/0.0.1280.984/-1280.-8.1280.1024@0.0.1280.984" timestamp="1583880811364" />
+    <state width="1236" height="271" key="GridCell.Tab.0.center" timestamp="1583880811364">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1236" height="271" key="GridCell.Tab.0.center/0.0.1280.984/-1280.-8.1280.1024@-1280.-8.1280.1024" timestamp="1583781495518" />
+    <state width="1236" height="271" key="GridCell.Tab.0.center/0.0.1280.984/-1280.-8.1280.1024@0.0.1280.984" timestamp="1583880811364" />
+    <state width="1236" height="271" key="GridCell.Tab.0.left" timestamp="1583880811363">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1236" height="271" key="GridCell.Tab.0.left/0.0.1280.984/-1280.-8.1280.1024@-1280.-8.1280.1024" timestamp="1583781495517" />
+    <state width="1236" height="271" key="GridCell.Tab.0.left/0.0.1280.984/-1280.-8.1280.1024@0.0.1280.984" timestamp="1583880811363" />
+    <state width="1236" height="271" key="GridCell.Tab.0.right" timestamp="1583880811364">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1236" height="271" key="GridCell.Tab.0.right/0.0.1280.984/-1280.-8.1280.1024@-1280.-8.1280.1024" timestamp="1583781495518" />
+    <state width="1236" height="271" key="GridCell.Tab.0.right/0.0.1280.984/-1280.-8.1280.1024@0.0.1280.984" timestamp="1583880811364" />
+    <state x="-1139" y="135" key="SettingsEditor" timestamp="1583777985782">
+      <screen x="-1280" y="-8" width="1280" height="1024" />
+    </state>
+    <state x="-1139" y="135" key="SettingsEditor/0.0.1280.984/-1280.-8.1280.1024@-1280.-8.1280.1024" timestamp="1583777985782" />
+    <state x="341" y="314" key="com.intellij.ide.util.TipDialog" timestamp="1583776829966">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="341" y="314" key="com.intellij.ide.util.TipDialog/0.0.1280.984/-1280.-8.1280.1024@0.0.1280.984" timestamp="1583776829966" />
+    <state x="348" y="126" width="585" height="732" key="find.popup" timestamp="1583819164028">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="348" y="126" width="585" height="732" key="find.popup/0.0.1280.984/-1280.-8.1280.1024@0.0.1280.984" timestamp="1583819164028" />
+  </component>
+</project>
