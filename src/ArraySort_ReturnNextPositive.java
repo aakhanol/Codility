@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class ArraySort_ReturnNextPositive {
 
@@ -34,7 +35,7 @@ public class ArraySort_ReturnNextPositive {
     public static void main(String[] args){
 
 
-                 System.out.println("The last number is "+ ArraySort_ReturnNextPositive.solution( new int[]{10,5}));
+                 System.out.println("The last number is "+ ArraySort_ReturnNextPositive.solution( new int[]{1, 3, 6, 4, 1, 2}));
 
     }
 
@@ -43,7 +44,7 @@ public class ArraySort_ReturnNextPositive {
             // write your code in Java SE 8
 
            int count = 1;
-            try{
+            HashSet<Integer> hashSet = new HashSet<Integer>();
 
 //create a new Empty Array with the same length.
 
@@ -58,9 +59,10 @@ public class ArraySort_ReturnNextPositive {
                         return 1;
                     }
                 }
-                Arrays.sort( A);
 
-                for(int i =0 ; i<A.length; i++){
+
+
+             for(int i =0 ; i<A.length; i++){
 
                     if(A[i] > 0 ){
                         for (int j=i; j<A.length; j++){
@@ -83,9 +85,7 @@ public class ArraySort_ReturnNextPositive {
 
 
 
-            }catch (Exception e){
 
-            }
            return count;
         }
 }

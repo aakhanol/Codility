@@ -41,38 +41,37 @@ public class CyclicRotation {
 
     public static void main(String[] args) {
 
-        int[] arra = CyclicRotation.rotateN(new int[]{6, 8, -1, 10, 0}, 9);
-        for (int i = 0; i < arra.length; i++) {
-            System.out.println("The Rotated Array " + arra[i]);
+        int[] arr = CyclicRotation.rotateN(new int[]{6, 8, -1, 10, 0}, 9);
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("The Rotated Array " + arr[i]);
         }
-
     }
 
 
     public static int[] rotateN(int[] arr, int rotate) {
-        int count = 0;
 
+        int count = 0;
+        if(rotate > arr.length){
+            rotate = rotate -arr.length;
+        }
 
         int[] newArr = new int[arr.length];
-        try {
 
-
-            if (arr.length == 1) {
+        if (arr.length == 1) {
                 return arr;
             } else if (arr.length == rotate) {
                 return arr;
+            }else if(rotate ==0){
+                return arr;
+
             }
 
-
-            if (rotate != 0) {
+        if (rotate != 0) {
                 int startIdx = arr.length - rotate;
 
                 for (int i = startIdx; i < arr.length; i++) {
-
                     newArr[count] = arr[i];
-
                     count++;
-
                 }
                 for (int j = 0; j < startIdx; j++) {
                     newArr[count] = arr[j];
@@ -82,11 +81,5 @@ public class CyclicRotation {
             }
 
             return newArr;
-
-        } catch (Exception e) {
-            return arr;
-        }
-
-
     }
 }

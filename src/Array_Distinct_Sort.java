@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 /*
 
 Write a function
@@ -27,47 +28,19 @@ public class Array_Distinct_Sort{
 
         Array_Distinct_Sort ds = new Array_Distinct_Sort();
 
-        System.out.println(" The distinct number: "+ds.dSolution(new int[] {-1,-2,0,9,0,1,5,6,5,5,2,3,3,4,4,7,7,7}));
+        System.out.println(" The distinct number: "+ds.dSolution(new int[] {1,1,1,5,5,6,6,8}));
 
     }
 
     public  int dSolution(int [] arr){
 
-        Arrays.sort(arr);
-
-        HashMap<Integer, Integer> arrSet = new HashMap<Integer, Integer>();
-
-        int distCount = 0;
-        int tempValue =0;
-        int count =0;
-
-        for(int i=0; i < arr.length; i++){
-            int dupCount=0;
-
-           for(int j=i+1; j<arr.length; j++){
-                    if(arr[i] == arr[j]){
-
-                        dupCount++;
-
-                    }
-
-
-
-
-
-           }
-
-            arrSet.put(arr[i], dupCount);
-
+        HashSet<Integer> arrSet = new HashSet<Integer>();
+        for(int i: arr){
+            arrSet.add(i);
 
         }
 
-
-
-
-
-     return arrSet.size();
-
+        return arrSet.size();
     }
 
 
